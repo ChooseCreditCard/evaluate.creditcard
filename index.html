@@ -2,41 +2,254 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Redirecting…</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Fast redirect -->
-  <meta http-equiv="refresh"
-        content="0.2; url=https://choose.creditcard/?utm_source=evaluate.creditcard&utm_medium=redirect&utm_campaign=creditcard_collection">
+  <title>Evaluate.Creditcard – How to Evaluate Credit Cards Neutrally</title>
+  <meta name="description" content="Learn a neutral, structured way to evaluate credit cards: APR, fees, rewards, protections and issuer policies. Documentation-style framework, not financial advice." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://evaluate.creditcard/" />
 
-  <!-- Canonical to target -->
-  <link rel="canonical"
-        href="https://choose.creditcard/?utm_source=evaluate.creditcard&utm_medium=redirect&utm_campaign=creditcard_collection" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Evaluate.Creditcard – Credit-Card Evaluation Framework" />
+  <meta property="og:description" content="Structured explanations of how to evaluate credit cards: pricing, rewards, protections and risk factors, without recommendations or approval promises." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://evaluate.creditcard/" />
+  <meta property="og:image" content="https://choose.creditcard/preview.png?utm_source=evaluate.creditcard&utm_medium=referral&utm_campaign=og_image" />
 
-  <!-- Prevent indexing of redirect page -->
-  <meta name="robots" content="noindex,follow" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Evaluate.Creditcard – Credit-Card Evaluation Framework" />
+  <meta name="twitter:description" content="Neutral framework for evaluating credit cards: costs, rewards, protections and issuer behaviour explained in plain language." />
+  <meta name="twitter:image" content="https://choose.creditcard/preview.png?utm_source=evaluate.creditcard&utm_medium=referral&utm_campaign=twitter_image" />
 
   <!-- GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-64FE63JQ3H"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-64FE63JQ3H', {
-      'page_title': 'Redirect evaluate.creditcard',
-      'page_path': '/redirect/evaluate.creditcard'
-    });
+    gtag('config', 'G-64FE63JQ3H');
   </script>
 
-  <!-- Dark background -->
-  <style>
-    html, body {
-      background: #020617;
-      color: #020617;
-      margin: 0;
-      height: 100vh;
-    }
-  </style>
-</head>
-<body></body>
-</html>
+  <!-- Tailwind for utility classes -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
+  <!-- Your shared minisite styles -->
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body class="bg-slate-950 text-slate-100">
+  <header class="site-header">
+    <div class="nav-inner max-w-6xl">
+      <div class="brand">
+        <div class="cc-logo">CC</div>
+        <div class="brand-text">
+          <div class="brand-title">Evaluate.Creditcard</div>
+          <div class="brand-subtitle">Neutral Credit-Card Evaluation Framework</div>
+        </div>
+      </div>
+      <nav class="nav-links" aria-label="Page navigation">
+        <a href="#overview">Overview</a>
+        <a href="#mechanics">How It Works</a>
+        <a href="#compare">Compare</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="cc-page">
+    <!-- Breadcrumb -->
+    <div class="cc-breadcrumb">
+      <a href="https://choose.creditcard/?utm_source=evaluate.creditcard&utm_medium=referral&utm_campaign=breadcrumb">Home</a>
+      &nbsp;›&nbsp;
+      Evaluate.Creditcard
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>How to Evaluate Credit Cards in a Structured Way</h1>
+        <p class="hero-lead">
+          Credit cards can be compared on many dimensions: costs, rewards, protections, technology and issuer behaviour. This page outlines a neutral, documentation-style framework for evaluation — not recommendations or approval advice.
+        </p>
+        <a class="cta" href="https://choose.creditcard/guides/?utm_source=evaluate.creditcard&utm_medium=referral&utm_campaign=hero_cta">
+          Explore evaluation guides on Choose.Creditcard
+        </a>
+      </div>
+    </section>
+
+    <!-- Content sections -->
+    <section id="overview" class="section">
+      <h2>What Does It Mean to “Evaluate” a Credit Card?</h2>
+      <p>Evaluating a credit card means understanding how it behaves in real use, not just reading a list of features. It involves looking at pricing, rewards, protections, technology and issuer policies in a consistent, comparable way.</p>
+      <p>This is different from choosing a “best” card. A structured evaluation framework helps you interpret documentation and compare products, but it does not tell you what you personally should do or which offer you will qualify for.</p>
+    </section>
+
+    <section id="mechanics" class="section">
+      <h2>A Step-by-Step Evaluation Framework</h2>
+      <p>A neutral evaluation can be broken into a few core dimensions. The exact weighting depends on the reader, but the structure stays the same.</p>
+
+      <ul class="list">
+        <li><strong>1. Pricing</strong> – APR ranges, fees, FX margins and how interest is calculated.</li>
+        <li><strong>2. Rewards</strong> – earn rates, caps, categories and how redemptions work.</li>
+        <li><strong>3. Protections</strong> – included insurance, dispute rights and coverage limits.</li>
+        <li><strong>4. Technology</strong> – virtual cards, wallets, security features and controls.</li>
+        <li><strong>5. Issuer behaviour</strong> – transparency, documentation quality and support.</li>
+      </ul>
+
+      <p>By using the same checklist for each card, differences become easier to see and document, even without giving subjective recommendations.</p>
+    </section>
+
+    <section class="section">
+      <h2>Reading Official Documentation Carefully</h2>
+      <p>Marketing pages summarise features, but the binding details are in the agreement, pricing schedule and policy wording. A thorough evaluation focuses on:</p>
+      <ul class="list">
+        <li>How APR ranges are defined and when they can change</li>
+        <li>Which fees apply in specific scenarios (FX, cash advances, late payments)</li>
+        <li>What conditions trigger or remove a grace period</li>
+        <li>Eligibility rules for insurance and protections</li>
+        <li>Any special conditions for introductory or promotional offers</li>
+      </ul>
+      <p>These details are usually presented in dense documents, which is why a structured reading approach is useful.</p>
+    </section>
+
+    <section class="section">
+      <h2>Separating Features from Use-Cases</h2>
+      <p>The same card can look attractive or unattractive depending on how it is used. A neutral evaluation describes:</p>
+      <ul class="list">
+        <li>Which transactions the card is optimized for (daily spend, travel, balance transfers)</li>
+        <li>How rewards profiles change with different spend patterns</li>
+        <li>Which protections are most relevant for common scenarios</li>
+      </ul>
+      <p>Rather than declaring a “winner”, the goal is to show how a card behaves under different usage patterns so readers can match documentation to their own situations.</p>
+    </section>
+
+    <section class="section">
+      <h2>Risk, Uncertainty and Changing Terms</h2>
+      <p>Credit-card products are not static. APRs, fees, reward structures and protections can change over time according to the terms. Evaluation should treat product snapshots as time-bound, not permanent.</p>
+      <p>It is also important to acknowledge uncertainty: approval decisions, credit limits and specific offers depend on underwriting and individual circumstances, which cannot be predicted from public documentation alone.</p>
+    </section>
+
+    <!-- Comparison block -->
+    <section id="compare" class="section">
+      <h2>Key Dimensions in a Card Evaluation</h2>
+      <div class="table-wrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Dimension</th>
+              <th>What to Look For</th>
+              <th>Why It Matters</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Pricing &amp; APR</td>
+              <td>APR ranges, fee structure, grace-period rules</td>
+              <td>Defines the underlying cost of borrowing and holding balances.</td>
+            </tr>
+            <tr>
+              <td>Rewards &amp; Loyalty</td>
+              <td>Earn rates, categories, caps, devaluation risk</td>
+              <td>Shows how much value returns to the cardholder, before costs.</td>
+            </tr>
+            <tr>
+              <td>Protections &amp; Insurance</td>
+              <td>Included coverage, limits, exclusions and claims process</td>
+              <td>Influences real-world resilience when things go wrong.</td>
+            </tr>
+            <tr>
+              <td>Technology &amp; Controls</td>
+              <td>Wallet support, virtual cards, spend controls, alerts</td>
+              <td>Affects day-to-day usability and security posture.</td>
+            </tr>
+            <tr>
+              <td>Issuer Conduct</td>
+              <td>Clarity of terms, service quality, change notifications</td>
+              <td>Helps gauge how predictable and transparent the product is over time.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small">
+        For concrete examples of how this framework is applied across different topics and products, visit
+        <a href="https://choose.creditcard/guides/?utm_source=evaluate.creditcard&utm_medium=referral&utm_campaign=comparison_section">
+          the guides section on Choose.Creditcard
+        </a>.
+      </p>
+    </section>
+
+    <!-- Cluster links -->
+    <section class="section">
+      <h2>Explore Related Evaluation &amp; Comparison Microsites</h2>
+      <div class="cluster-grid">
+        <a class="cluster-card" href="https://comparecard.creditcard/?utm_source=evaluate.creditcard&utm_medium=referral&utm_campaign=cluster_comparecard">
+          <h3>CompareCard.Creditcard</h3>
+          <p>How structured card comparison tables and layouts work.</p>
+        </a>
+        <a class="cluster-card" href="https://comparecards.creditcard/?utm_source=evaluate.creditcard&utm_medium=referral&utm_campaign=cluster_comparecards">
+          <h3>CompareCards.Creditcard</h3>
+          <p>High-level overview of comparison categories and filters.</p>
+        </a>
+        <a class="cluster-card" href="https://reviews.creditcard/?utm_source=evaluate.creditcard&utm_medium=referral&utm_campaign=cluster_reviews">
+          <h3>Reviews.Creditcard</h3>
+          <p>How review-style content differs from documentation-style analysis.</p>
+        </a>
+        <a class="cluster-card" href="https://guides.creditcard/?utm_source=evaluate.creditcard&utm_medium=referral&utm_campaign=cluster_guides">
+          <h3>Guides.Creditcard</h3>
+          <p>Long-form educational guides on card topics and methodologies.</p>
+        </a>
+        <a class="cluster-card" href="https://hub.creditcard/?utm_source=evaluate.creditcard&utm_medium=referral&utm_campaign=cluster_hub">
+          <h3>Hub.Creditcard</h3>
+          <p>Overview of how The CreditCard Collection is organized.</p>
+        </a>
+        <a class="cluster-card" href="https://directory.creditcard/?utm_source=evaluate.creditcard&utm_medium=referral&utm_campaign=cluster_directory">
+          <h3>Directory.Creditcard</h3>
+          <p>Index of hubs, minisites and structural domains in the network.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Collection section -->
+    <section class="section">
+      <h2>Part of The CreditCard Collection</h2>
+      <p class="small">
+        Evaluate.Creditcard is one spoke in <strong>The CreditCard Collection</strong> — a network of focused microsites operated by ronarn AS. Each site explains a single concept in clear, factual language and then connects you to independent comparison tools.
+      </p>
+      <p class="small">
+        We do not issue cards and we do not provide personalized recommendations. We summarize documentation, outline evaluation frameworks and link to external providers where you can read full terms yourself.
+      </p>
+      <p class="small">
+        This site is informational only and does not provide financial, investment, tax or legal advice. Always rely on official product documentation and consider seeking independent advice if needed.
+      </p>
+
+      <!-- Guides / methodology snippet -->
+      <p class="text-xs text-slate-500 mt-6">
+        This microsite is connected to the
+        <a href="https://choose.creditcard/guides/?utm_source=evaluate.creditcard&utm_medium=referral&utm_campaign=hub_guides"
+           class="font-medium hover:text-slate-900">
+          Guides &amp; Evaluation hub
+        </a>
+        on <a href="https://choose.creditcard/" class="font-medium hover:text-slate-900">Choose.Creditcard</a>,
+        where topic-specific guides apply this framework to concrete card categories.
+      </p>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="section">
+      <h2>Ready to See the Framework in Action?</h2>
+      <p class="small">
+        Use Evaluate.Creditcard as a reference for how to read card documentation — then visit the guides and comparison pages on Choose.Creditcard to see how different products are described using the same structure.
+      </p>
+      <a class="cta" href="https://choose.creditcard/guides/?utm_source=evaluate.creditcard&utm_medium=referral&utm_campaign=bottom_cta">
+        Go to the Guides &amp; Evaluation hub
+      </a>
+    </section>
+  </main>
+
+  <footer class="mini-footer">
+    <p class="mini-footer-main">© 2025 The CreditCard Collection — ronarn AS</p>
+    <p class="mini-footer-contact">
+      Contact: <a href="mailto:support@cc.creditcard">support@cc.creditcard</a>
+    </p>
+  </footer>
+</body>
+</html>
